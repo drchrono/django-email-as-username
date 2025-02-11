@@ -1,0 +1,17 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: django-email-as-username
+  description: 'User authentication with email addresses instead of usernames.  '
+  annotations:
+    business-unit: EverHealth
+    github.com/project-slug: drchrono/django-email-as-username
+    product: DRC
+spec:
+  type: service
+  lifecycle: production
+  owner: EverHealth
+  implementation:
+    languages:
+    - Python
+    - HTML
